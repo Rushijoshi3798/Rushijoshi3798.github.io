@@ -1,0 +1,6 @@
+This logo was generated using the following font:
+
+- Font Title: Cairo
+- Font Author: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+- Font Source: http://fonts.gstatic.com/s/cairo/v17/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgsQSaT0J0vRQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
