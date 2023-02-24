@@ -1,15 +1,12 @@
 {
-  "name": "elrich-bachman",
+  "name": "rushi-joshi",
   "version": "1.0.0",
-  "description": "Portfolio templates for devfolio.io",
+  "description": "Portfolio",
   "main": "index.js",
-  "repository": "https://github.com/Mr-spShuvo/devfolio-templates",
-  "author": "Md. Shahriar Parvez<mr.spshuvo@gmail.com>",
+  "repository": "https://github.com/Rushijoshi3798/Rushijoshi3798.github.io",
+  "author": "Rushi Joshi<rushijoshi3798@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "start": "",
     "watch": "node-sass scss/app.scss styles/app.css -w",
     "build": "node-sass scss/app.scss styles/app.min.css --output-style=compressed"
   },
