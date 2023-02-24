@@ -943,3 +943,9 @@ img {
   color: var(--color-accent);
   font-weight: var(--font-semi-bold);
 }
+
+/* some final remaining CSS */
+
+.skills-card-name{
+  text-align: center;
+}

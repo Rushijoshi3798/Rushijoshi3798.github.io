@@ -52,18 +52,18 @@
           </h1>
           <nav class="navigation">
             <ul>
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a class="nav-link home" href="#hero">Home</a></li>
+              <li><a class="nav-link about" href="#about">About</a></li>
+              <li><a class="nav-link skills" href="#skills">Skills</a></li>
+              <li><a class="nav-link projects" href="#portfolio">Projects</a></li>
+              <li><a class="nav-link contact" href="#contact">Contact</a></li>
             </ul>
-            <a class="btn btn--main" href="https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=sharing" target="_blank">
+            <a id="resume-link-1" class="btn btn--main nav-link resume" href="https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=sharing" target="_blank">
               <i class="bi bi-download"></i> Resume
             </a>
           </nav>
           <div class="header__resume">
-            <a class="btn btn--main" href="https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=sharing" target="_blank">
+            <a id="resume-link-2" class="btn btn--main" href="https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=sharing" target="_blank">
               <i class="bi bi-download"></i> Resume
             </a>
           </div>
@@ -78,13 +78,13 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-      <div class="container">
+      <div id="home" class="container">
         <div class="hero__wrapper">
-          <h1 class="hero__title animate__animated animate__slideInDown">
+          <h1 id="user-detail-name" class="hero__title animate__animated animate__slideInDown">
             RUSHI JOSHI<br />
             <span class="section__title">A Curious Mind Who Writes Code</span>
           </h1>
-          <p class="hero__content animate__animated animate__slideInDown">
+          <p id="user-detail-intro" class="hero__content animate__animated animate__slideInDown">
             An enthusiastic Full-stack web developer with hands-on experience in
             leading, developing & managing projects. Highly skilled
             decision-maker and problem solver
@@ -95,7 +95,7 @@
             style="background-image: url('assets/curve.png')"
           >
             <div class="hero__imgCircle animate__animated animate__slideInUp">
-              <img src="assets/Final_Profile_pic.jpg" alt="Profile Picture" />
+              <img class="home-img" src="assets/Final_Profile_pic.jpg" alt="Profile Picture" />
             </div>
             <h2 class="role">MERN Stack Developer</h2>
           </div>
@@ -122,7 +122,7 @@
     </section>
 
       <!-- About Me Section -->
-      <section class="section" id="about">
+      <section class="about section" id="about">
         <div class="container">
           <div class="about">
             <div class="about__left">
@@ -139,22 +139,22 @@
                 <br>
                 Apart from this, I love to play sports, read books, listen to music and podcasts.
               </p>
-              <br id="skills">
               <br>
-              <h4 class="about__skillsTitle">Skills</h4>
+              <br>
+              <h4 id="skills" class="about__skillsTitle">Skills</h4>
               <ul class="about__skillsList">
-                <li><img src="assets\HTML_icon.png" alt="HTML_icon"></li>
-                <li><img src="assets\icons8-css3-96.png" alt="CSS_icon"></li>
-                <li><img src="assets\icons8-javascript-96.png" alt="JavaScript"></li>
-                <li><img src="assets\icons8-react-native-96.png" alt="ReactJS"></li>
-                <li><img src="assets\icons8-typescript-96.png" alt="typescript"></li>
-                <li><img src="assets\icons8-express-js-96.png" alt="ExpressJS"></li>
-                <li><img src="assets\mongodb_icon_final-removebg-preview.png" alt="MongoDB"></li>
-                <li><img src="assets\icons8-nodejs-96.png" alt="nodeJS"></li>
-                <li><img src="assets\icons8-redux-96.png" alt="Redux"></li>
-                <li><img src="assets\icons8-chakra-ui-96.png" alt="chakraUI"></li>
-                <li><img src="assets\icons8-tailwindcss-96.png" alt="Tailwind CSS"></li>
-                <li><img src="assets\icons8-figma-96.png" alt="Figma"></li>
+                <li class="skills-card"><img class="skills-card-img" src="assets\HTML_icon.png" alt="HTML_icon"><div class="skills-card-name">HTML</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-css3-96.png" alt="CSS_icon"><div class="skills-card-name">HTML</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-javascript-96.png" alt="JavaScript"><div class="skills-card-name">JavaScript</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-react-native-96.png" alt="ReactJS"><div class="skills-card-name">ReactJS</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-typescript-96.png" alt="typescript"><div class="skills-card-name">TypeScript</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-express-js-96.png" alt="ExpressJS"><div class="skills-card-name">ExpressJS</div></li>
+                <li><img class="skills-card-img" src="assets\mongodb_icon_final-removebg-preview.png" alt="MongoDB"><div class="skills-card-name">MongoDB</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-nodejs-96.png" alt="nodeJS"><div class="skills-card-name">nodeJS</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-redux-96.png" alt="Redux"><div class="skills-card-name">Redux</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-chakra-ui-96.png" alt="chakraUI"><div class="skills-card-name">ChakraUI</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-tailwindcss-96.png" alt="Tailwind CSS"><div class="skills-card-name">Tailwind</div></li>
+                <li><img class="skills-card-img" src="assets\icons8-figma-96.png" alt="Figma"><div class="skills-card-name">Figma</div></li>
               </ul>
             </div>
             <div class="about__right">
@@ -169,9 +169,9 @@
       class="section animate__animated animate__slideInUp"
       id="portfolio"
     >
-      <div class="container">
+      <div class="container" id="projects">
         <div class="section__header section__header--center">
-          <h2 class="section__title">Portfolio</h2>
+          <h2 class="section__title">Projects</h2>
           <p class="section__subtitle">See my latest work</p>
         </div>
         <div class="portfolio">
@@ -193,27 +193,27 @@
             </div> -->
           </div>
           <!-- Ikea Project -->
-          <div class="portfolio__box">
+          <div class="portfolio__box project-card">
             <div class="portfolio__img ">
               <img class="portfolio_banner" src="assets/ikea.png" alt="Portfolio Items" />
             </div>
             <div class="portfolio__info">
-              <h3 class="portfolio__title">Ikea Clone</h3>
+              <h3 class="portfolio__title project-title">Ikea Clone</h3>
               <p class="portfolio__content">
                 <i>- A web application to buy modern furniture.</i> 
               </p>
-              <p class="portfolio__content">
+              <p class="portfolio__content project-description">
                Built backend app including REST APIs with help of MongoDB and  implemented authentication. Designed Login and Sign up pages. 
               </p>
               <p class="techStack">
                 <b>Tech Stack: </b
-                ><span class="techList">ReactJS, ExpressJS, MongoDB, Material Ui</span>
+                ><span class="techList project-tech-stack">ReactJS, ExpressJS, MongoDB, Material Ui</span>
               </p>
               <br />
-              <a class="portfolio__link github" href="https://github.com/vattsalbhatt/Ikea_Backendsss" target="_blank"
+              <a class="portfolio__link github project-github-link" href="https://github.com/vattsalbhatt/Ikea_Backendsss" target="_blank"
                 ><i class="fa-brands fa-github"></i
               ></a>
-              <a class="portfolio__link preview" href="https://ikea-frontend-beta.vercel.app/" target="_blank"
+              <a class="portfolio__link preview project-deployed-link" href="https://ikea-frontend-beta.vercel.app/" target="_blank"
                 ><i class="fa-solid fa-eye"></i
               ></a>
             </div>
@@ -391,22 +391,22 @@
             </div>
             <div class="contact__info">
               <p>Email Me:</p>
-              <a href="mailto:">rushijoshi333@gmail.com</a>
+              <a id="contact-email" href="mailto:">rushijoshi333@gmail.com</a>
             </div>
 
             <div class="contact__info">
               <p>Call Me:</p>
-              <a href="tel:">+91 9712291621</a>
+              <a id="contact-phone" href="tel:">+91 9712291621</a>
             </div>
 
             <div class="contact__info">
               <p>Follow Me:</p>
               <ul class="social">
                 <li>
-                  <a href="https://www.linkedin.com/in/rushijoshi3798/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a id="contact-linkedin" href="https://www.linkedin.com/in/rushijoshi3798/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </li>
                 <li>
-                  <a href="https://github.com/Rushijoshi3798" target="_blank"><i class="bi bi-github"></i></a>
+                  <a id="contact-github" href="https://github.com/Rushijoshi3798" target="_blank"><i class="bi bi-github"></i></a>
                 </li>
                 <li>
                   <a href="https://twitter.com/Rushijoshi3798" target="_blank"><i class="bi bi-twitter"></i></a>
