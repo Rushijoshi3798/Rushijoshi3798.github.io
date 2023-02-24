@@ -7,6 +7,9 @@
   "author": "Md. Shahriar Parvez<mr.spshuvo@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "start": "",
     "watch": "node-sass scss/app.scss styles/app.css -w",
     "build": "node-sass scss/app.scss styles/app.min.css --output-style=compressed"
   },
