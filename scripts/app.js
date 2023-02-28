@@ -1,9 +1,4 @@
-import './commands'
-   Cypress.on('uncaught:exception', (err, runnable) => {
-   // returning false here prevents Cypress from
- // failing the test
-   return false
-   })
+
 
 // Navigation Menu
 const navMenu = document.querySelector('.navigation');
@@ -40,29 +35,29 @@ navButton.addEventListener('click', () => {
 });
 
 // Splidejs Slide
-const splide = new Splide('.splide', {
-  type: 'loop',
-  direction: 'ltr',
-  width: '72%',
-  height: '40rem',
-  autoplay: true,
-  perPage: 1,
-  breakpoints: {
-    1100: {
-      height: '42rem',
-      width: '90%'
-    },
-    720: {
-      height: '46rem',
-      width: '100%'
-    },
-    400: {
-      height: '50rem'
-    }
-  }
-});
+// const splide = new Splide('.splide', {
+//   type: 'loop',
+//   direction: 'ltr',
+//   width: '72%',
+//   height: '40rem',
+//   autoplay: true,
+//   perPage: 1,
+//   breakpoints: {
+//     1100: {
+//       height: '42rem',
+//       width: '90%'
+//     },
+//     720: {
+//       height: '46rem',
+//       width: '100%'
+//     },
+//     400: {
+//       height: '50rem'
+//     }
+//   }
+// });
 
-splide.mount();
+// splide.mount();
 
 // Scroll Reveal
 ScrollReveal().reveal('.about', { delay: 300 });
