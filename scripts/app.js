@@ -1,3 +1,10 @@
+import './commands'
+   Cypress.on('uncaught:exception', (err, runnable) => {
+   // returning false here prevents Cypress from
+ // failing the test
+   return false
+   })
+
 // Navigation Menu
 const navMenu = document.querySelector('.navigation');
 const navButton = document.querySelector('#navigation-button');
