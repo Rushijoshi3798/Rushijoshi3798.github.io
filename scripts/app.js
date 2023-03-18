@@ -1,4 +1,23 @@
+//Resume button - 0
+let resume0 = document.getElementById("resume-button-0");
 
+resume0.onclick = () => {
+  window.open("./assets/Rushi-Joshi-Resume.pdf")
+}
+
+// Resume Button 1 
+let resume = document.getElementById("resume-button-1");
+
+resume.onclick = () => {
+  window.open("./assets/Rushi-Joshi-Resume.pdf")
+}
+
+// Resume button - 2
+let resume2 = document.getElementById("resume-button-2");
+
+resume2.onclick = () => {
+  window.open("./assets/Rushi-Joshi-Resume.pdf")
+}
 
 // Navigation Menu
 const navMenu = document.querySelector('.navigation');
