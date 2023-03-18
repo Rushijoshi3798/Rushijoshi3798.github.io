@@ -1,9 +1,9 @@
 //Resume button - 0
-let resume0 = document.getElementById("resume-button-0");
+// let resume0 = document.getElementById("resume-button-0");
 
-resume0.onclick = () => {
-  window.open("./assets/Rushi-Joshi-Resume.pdf")
-}
+// resume0.onclick = () => {
+//   window.open("./assets/Rushi-Joshi-Resume.pdf")
+// }
 
 // Resume Button 1 
 let resume = document.getElementById("resume-button-1");
