@@ -9,12 +9,14 @@
       src="https://kit.fontawesome.com/db1cefd446.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <link
       rel="shortcut icon"
       href="assets\favicon-RJ--32x32.png"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Kanit:wght@800&display=swap"
@@ -402,84 +404,25 @@
     </section>
 
   
+    <div style="display: grid;grid-template-columns: repeat(3, 1fr); gap: 20px;">
+      <div style=" height: 200px; margin-bottom: 50px;"><img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Rushijoshi3798&theme=prussian" alt="github_streak"></div>
+      <div style=" height: 200px; margin-bottom: 100px;"><img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Rushijoshi3798&show_icons=true&theme=prussian" alt="github_stats"></div>
+      <div style=" height: 200px; margin-bottom: 300px;"><img id="github-top-langs" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Rushijoshi3798&theme=prussian" alt="github_language"></div>
+    </div>
+    
+   
+   <div style="text-align: center;color: white; background-color: #1c232e;" >My Github contirbutions
+      <div style="width: 90%; margin: auto; background-color: #1c232e;" id="github-calendar"></div>
+   </div>
 
-    <!-- Testimonials Section -->
-    <!-- <section class="container">
-      <div class="section" id="testimonials">
-        <div class="section__header section__header--center">
-          <h2 class="section__title">People Says</h2>
-          <p class="section__subtitle">What others think about me</p>
-        </div>
-        <div class="testimonials">
-          <div class="splide">
-            <div class="splide__track">
-              <div class="splide__list">
-                <div class="testimonials__box splide__slide">
-                  <div class="testimonials__content">
-                    <span class="testimonials__sign">
-                      <i class="bi bi-chat-square-quote"></i>
-                    </span>
-                    <p class="testimonials__quotes">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Laborum, maxime corporis deleniti distinctio ullam,
-                      accusamus debitis ratione unde rerum illo sit laudantium
-                      molestiae ipsum praesentium neque sed perferendis!
-                      Blanditiis, debitis.
-                    </p>
-                    <div class="testimonials__author">
-                      <div class="testimonials__authorInfo">
-                        <h4>Dennis Ivy</h4>
-                        <p>Instructor & Youtuber</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="testimonials__box splide__slide">
-                  <div class="testimonials__content">
-                    <span class="testimonials__sign">
-                      <i class="bi bi-chat-square-quote"></i>
-                    </span>
-                    <p class="testimonials__quotes">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Laborum, maxime corporis deleniti distinctio ullam,
-                      accusamus debitis ratione unde rerum illo sit laudantium
-                      molestiae ipsum praesentium neque sed perferendis!
-                      Blanditiis, debitis.
-                    </p>
-                    <div class="testimonials__author">
-                      <div class="testimonials__authorInfo">
-                        <h4>Shahriar Parvez</h4>
-                        <p>Web Developer & UI Designer</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="testimonials__box splide__slide">
-                  <div class="testimonials__content">
-                    <span class="testimonials__sign">
-                      <i class="bi bi-chat-square-quote"></i>
-                    </span>
-                    <p class="testimonials__quotes">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Laborum, maxime corporis deleniti distinctio ullam,
-                      accusamus debitis ratione unde rerum illo sit laudantium
-                      molestiae ipsum praesentium neque sed perferendis!
-                      Blanditiis, debitis.
-                    </p>
-                    <div class="testimonials__author">
-                      <div class="testimonials__authorInfo">
-                        <h4>Praveen M.</h4>
-                        <p>Python, Django Developer</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    
+
+    <!-- Github state section -->
+    <!-- github streak - state link - https://github-readme-streak-stats.herokuapp.com?user=Rushijoshi3798&theme=prussian -->
+    <!-- states - data - https://github-readme-stats.vercel.app/api?username=Rushijoshi3798&show_icons=true&theme=dark -->
+    <!-- language - https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Rushijoshi3798 -->
+
+
 
     <!-- Contact Section -->
     <section class="section" id="contact">
@@ -564,6 +507,14 @@
     </footer>
 
    
+    <script>
+      GitHubCalendar("#github-calendar", "Rushijoshi3798");
+  
+      // or enable responsive functionality:
+      GitHubCalendar("#github-calendar", "Rushijoshi3798", { responsive: true });
+
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
     
     <script src="https://unpkg.com/scrollreveal"></script>
