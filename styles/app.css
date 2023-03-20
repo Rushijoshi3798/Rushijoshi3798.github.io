@@ -949,3 +949,214 @@ img {
 .skills-card-name{
   text-align: center;
 }
+
+/* Github states CSS */
+
+.github_stat{
+  margin-bottom: 90px;
+}
+
+#github_states_title{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+#github_states_main_div{
+display: flex;
+/* border: 1px solid red; */
+width: 90%;
+margin: auto;
+}
+
+.github_states__div1{
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.github_states__subdiv1{
+  margin-bottom: 05px;
+  align-self: center;
+  height: 250px;
+}
+.github_states__subdiv1 > img{
+height: 90%;
+}
+.github_states__subdiv2{
+  align-self: center;
+}
+.github_states__div2{
+width: 28%;
+align-self: center;
+}
+.github_states__div2 > img{
+  margin-top: auto;
+  margin-left: 100px;
+}
+
+/* react - activity calender */
+
+#activity_calender_github{
+  font-size: 0px;
+  margin-bottom: 80px;
+}
+
+
+
+
+/* Media query for github states & calender */
+
+@media only screen and (min-width: 300px) and (max-width: 800px)  {
+  .github_stat{
+    margin-bottom: 10px;
+  }
+  
+  #github_states_title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  
+  #github_states_main_div{
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .github_states__div1{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .github_states__subdiv1{
+    margin-bottom: 05px;
+    align-self: center;
+    height: auto;
+  }
+  .github_states__subdiv1 > img{
+  height: auto;
+  }
+  .github_states__subdiv2{
+    align-self: center;
+  
+  }
+  .github_states__div2{
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  align-self: center;
+  /* border: 1px solid white; */
+  margin-bottom: 30px;
+  }
+  .github_states__div2 > img{
+    margin-top: auto;
+    margin: auto;
+    height: 90%;
+  }
+
+  /* for calender */
+
+  #activity_calender_github{
+    font-size: 0px;
+    margin-bottom: 30px;
+  }
+
+  /* for about section */
+
+  #about_section_portfolio{
+    margin-top: 180px;
+  }
+
+}
+
+/* Media query for mid screen */
+@media only screen and (min-width: 800px) and (max-width: 1200px)  {
+  .github_stat{
+    margin-bottom: 60px;
+  }
+  
+  #github_states_title{
+    text-align: center;
+    font-size: 40px;
+    /* color: white; */
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  
+  #github_states_main_div{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: auto;
+  }
+  
+  .github_states__div1{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    padding-left: 20px;
+  }
+  .github_states__subdiv1{
+    margin-bottom: 05px;
+    align-self: center;
+    height: 200px;
+  }
+  .github_states__subdiv1 > img{
+  height: 80%;
+  }
+  .github_states__subdiv2{
+    align-self: center;
+    height: 200px;
+  }
+
+  .github_states__subdiv2 > img{
+    height: 90%;
+  }
+
+  .github_states__div2{
+  width: 35%;
+  align-self: center;
+  }
+  .github_states__div2 > img{
+    margin-top: auto;
+    margin-left: 20px;
+  }
+
+  /* for calender */
+
+  #activity_calender_github{
+    font-size: 0px;
+    margin-bottom: 30px;
+  }
+
+  /* for about section */
+
+  #about_section_portfolio{
+    margin-top: 180px;
+  }
+
+  /* react - activity calender */
+
+#activity_calender_github{
+  font-size: 0px;
+  margin-bottom: 80px;
+}
+
+ /* for about section */
+
+ #about_section_portfolio{
+  margin-top: -150px;
+}
+
+}
