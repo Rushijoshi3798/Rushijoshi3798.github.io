@@ -271,7 +271,7 @@ img {
 }
 @media only screen and (max-width: 900px) {
   .header__resume {
-    display: none;
+    /* display: none; */
   }
 }
 .header .navigation {
@@ -282,7 +282,7 @@ img {
   pointer-events: all;
 }
 .header .navigation .btn {
-  /* display: none; */
+  display: none;
 }
 @media only screen and (max-width: 900px) {
   .header .navigation .btn {
@@ -1004,6 +1004,20 @@ align-self: center;
   margin-bottom: 80px;
 }
 
+/* resume button Navbar - special CSS */
+
+#resume-button-1{
+  /* border: 1px solid red; */
+  padding: 13px 35px;
+  border-radius: 10px;
+  background-color: #676cdb;
+  color: white;
+}
+
+#resume-button-1 > i{
+  margin-right: 10px;
+}
+
 
 
 
@@ -1158,5 +1172,7 @@ align-self: center;
  #about_section_portfolio{
   margin-top: -150px;
 }
+
+
 
 }

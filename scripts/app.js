@@ -9,7 +9,9 @@
 let resume = document.getElementById("resume-button-1");
 
 resume.onclick = () => {
-  window.open("./assets/Rushi-Joshi-Resume.pdf");
+  if (window) {
+    window.open("./assets/Rushi_Joshi_Resume.pdf");
+  }
 };
 
 // Resume button - 2
@@ -17,7 +19,7 @@ let resume2 = document.getElementById("resume-button-2");
 
 resume2.onclick = () => {
   if (window) {
-    window.open("./assets/Rushi-Joshi-Resume.pdf");
+    window.open("./assets/Rushi_Joshi_Resume.pdf");
   }
 };
 
