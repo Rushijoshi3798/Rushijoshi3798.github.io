@@ -5,39 +5,41 @@
 //   window.open("./assets/Rushi-Joshi-Resume.pdf")
 // }
 
-// Resume Button 1 
+// Resume Button 1
 let resume = document.getElementById("resume-button-1");
 
 resume.onclick = () => {
-  window.open("./assets/Rushi-Joshi-Resume.pdf")
-}
+  window.open("./assets/Rushi-Joshi-Resume.pdf");
+};
 
 // Resume button - 2
 let resume2 = document.getElementById("resume-button-2");
 
 resume2.onclick = () => {
-  window.open("./assets/Rushi-Joshi-Resume.pdf")
-}
+  if (window) {
+    window.open("./assets/Rushi-Joshi-Resume.pdf");
+  }
+};
 
 // Navigation Menu
-const navMenu = document.querySelector('.navigation');
-const navButton = document.querySelector('#navigation-button');
+const navMenu = document.querySelector(".navigation");
+const navButton = document.querySelector("#navigation-button");
 let isMenuActive = false;
 
-const navButtonLinks = document.querySelectorAll('.navigation li a');
+const navButtonLinks = document.querySelectorAll(".navigation li a");
 
-navButtonLinks.forEach(link => {
-  link.addEventListener('click', () => {
+navButtonLinks.forEach((link) => {
+  link.addEventListener("click", () => {
     const navIconMenu = `<i class="bi bi-list"></i>`;
     navButton.innerHTML = navIconMenu;
     isMenuActive = false;
-    navMenu.classList.remove('show');
-    navMenu.classList.remove('animate__animated');
-    navMenu.classList.remove('animate__bounceInLeft');
+    navMenu.classList.remove("show");
+    navMenu.classList.remove("animate__animated");
+    navMenu.classList.remove("animate__bounceInLeft");
   });
 });
 
-navButton.addEventListener('click', () => {
+navButton.addEventListener("click", () => {
   if (!isMenuActive) {
     const navIconClose = `<i class="bi bi-x-lg"></i>`;
     navButton.innerHTML = navIconClose;
@@ -48,9 +50,9 @@ navButton.addEventListener('click', () => {
     isMenuActive = false;
   }
   // Show and Hide Menu
-  navMenu.classList.toggle('show');
-  navMenu.classList.toggle('animate__animated');
-  navMenu.classList.toggle('animate__bounceInLeft');
+  navMenu.classList.toggle("show");
+  navMenu.classList.toggle("animate__animated");
+  navMenu.classList.toggle("animate__bounceInLeft");
 });
 
 // Splidejs Slide
@@ -79,6 +81,6 @@ navButton.addEventListener('click', () => {
 // splide.mount();
 
 // Scroll Reveal
-ScrollReveal().reveal('.about', { delay: 300 });
-ScrollReveal().reveal('.testimonials', { delay: 300 });
-ScrollReveal().reveal('.contact', { delay: 300 });
+ScrollReveal().reveal(".about", { delay: 300 });
+ScrollReveal().reveal(".testimonials", { delay: 300 });
+ScrollReveal().reveal(".contact", { delay: 300 });
