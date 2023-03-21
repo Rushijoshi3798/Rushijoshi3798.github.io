@@ -1012,6 +1012,7 @@ align-self: center;
   border-radius: 10px;
   background-color: #676cdb;
   color: white;
+  text-decoration: none;
 }
 
 #resume-button-1 > i{
