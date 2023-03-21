@@ -1026,18 +1026,18 @@ align-self: center;
   align-content: flex-end;
 }
 .hero__wrapper{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin-bottom: 80px;
   margin-top: 0px;
   padding: 30px;
 }
 .hero__img{
-  /* border: 1px solid silver; */
+  border: 1px solid silver;
   height: auto;
 }
 
 .header__resume > #resume-button-2{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   align-self: flex-end;
   background-color: #676cdb;
   padding-inline:30px ;
@@ -1129,13 +1129,13 @@ align-self: center;
     align-content: flex-end;
   }
   .hero__wrapper{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-bottom: 80px;
     margin-top: 0px;
     padding: 30px;
   }
   .hero__img{
-    /* border: 1px solid silver; */
+    border: 1px solid silver;
     height: auto;
   }
   .header__resume{
@@ -1144,7 +1144,7 @@ align-self: center;
   }
 
   .header__resume > #resume-button-2{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 7px 15px;
@@ -1249,19 +1249,19 @@ align-self: center;
   align-content: flex-end;
 } */
 .hero__wrapper{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin-bottom: 80px;
   margin-top: 20px;
   padding: 30px;
 }
 .hero__img{
-  /* border: 1px solid silver; */
+  border: 1px solid silver;
   height: auto;
   margin-bottom: 20px;
 }
 
 .hero__wrapper > .header__resume > #resume-button-2{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   padding: 7px 15px;
   border-radius: 10px;
   align-self: center;
