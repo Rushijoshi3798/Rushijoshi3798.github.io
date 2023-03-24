@@ -16,7 +16,7 @@
 
 //resume onclick - button-2
  function resumeOnclick() {
-   window.open("https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=share_link");
+   window.open("./assets/Rushi_Joshi_Resume.pdf");
 }
 
 // Resume button - 2
