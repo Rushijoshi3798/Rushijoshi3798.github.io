@@ -16,6 +16,7 @@
 
 //resume onclick - button-2
  function resumeOnclick() {
+  const button = "Resume button"
    window.open("./assets/Rushi_Joshi_Resume.pdf");
 }
 
