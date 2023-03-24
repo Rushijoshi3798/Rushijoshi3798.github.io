@@ -15,22 +15,19 @@ resume.onclick = () => {
 };
 
 //resume onclick - button-2
- function resumeOnclick() {
-   window.open("https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=share_link");
-}
+//  function resumeOnclick() {
+//    window.open("https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=share_link");
+// }
 
 // Resume button - 2
-// let resume2 = document.getElementById("resume-button-2");
+let resume2 = document.getElementById("resume-button-2");
 
-// resume2.onclick = () => {
-//   if (window) {
-//     window.open("./assets/Rushi_Joshi_Resume.pdf");
-//     const link = document.createElement("a");
-//     link.download = "./assest/Rushi_Joshi_Resume.pdf";
-//     document.body.appendChild(link);
-//     link.click();
-//   }
-// };
+resume2.onclick = () => {
+  if (window) {
+    window.open("https://drive.google.com/file/d/1kdwgjOFzfqFQ0ZaANLVuD6JZcNH9bDSO/view?usp=share_link");
+    
+  }
+};
 
 // Navigation Menu
 const navMenu = document.querySelector(".navigation");
