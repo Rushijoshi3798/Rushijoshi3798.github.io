@@ -6,13 +6,13 @@
 // }
 
 // Resume Button 1
-let resume = document.getElementById("resume-button-1");
+// let resume = document.getElementById("resume-button-1");
 
-resume.onclick = () => {
-  if (window) {
-    window.open("./assets/Rushi_Joshi_Resume.pdf");
-  }
-};
+// resume.onclick = () => {
+//   if (window) {
+//     window.open("./assets/Rushi_Joshi_Resume.pdf");
+//   }
+// };
 
 //resume onclick - button-2
  function resumeOnclick() {
