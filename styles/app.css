@@ -1015,13 +1015,21 @@ align-self: center;
   text-decoration: none;
 }
 
-#resume-button-1 > i{
+#resume-link-1{
+  display: flex;
+  text-decoration: none;
+}
+
+#resume-button-1 > a > i{
   margin-right: 10px;
 }
 
 /* Resume section CSS - full screen */
 
 .header__resume{
+  /* border: 3px solid gold; */
+  width: auto;
+  height: 60px;
   align-self: center;
   display: flex;
   align-content: flex-end;
@@ -1039,6 +1047,9 @@ align-self: center;
 
 .header__resume > #resume-button-2{
   /* border: 1px solid red; */
+  height: 100%;
+  width: 200px;
+  border-radius: 10px;
   align-self: flex-end;
   background-color: #676cdb;
   padding-inline:30px ;
@@ -1046,7 +1057,11 @@ align-self: center;
   margin-left: 1100px;
 }
 
-.header__resume > #resume-button-2 > i{
+#resume-link-2{
+  text-decoration: none;
+}
+
+.header__resume > #resume-button-2 > a > i{
   margin-right: 10px;
 }
 
@@ -1142,18 +1157,26 @@ align-self: center;
   .header__resume{
     display: flex;
     align-content: center;
+    margin-top: 30px;
+    height: auto;
   }
 
   .header__resume > #resume-button-2{
     /* border: 1px solid red; */
-    margin-bottom: 20px;
+    /* margin-bottom: 30px; */
     margin-top: 20px;
-    padding: 7px 15px;
-    border-radius: 10px;
+    width: 150px;
+    padding: 7px 10px;
+    border-radius: 5px;
     align-content: center;
     background-color: #676cdb;
     color: white;
+    margin-left: none;
+    margin: auto;
   }
+  /* .hero__wrapper{
+    margin-bottom: 500px;
+  } */
   
   .header__resume > #resume-button-2 > i{
     margin-right: 10px;
@@ -1250,7 +1273,6 @@ align-self: center;
   align-content: flex-end;
 } */
 .hero__wrapper{
-  /* border: 1px solid red; */
   margin-bottom: 80px;
   margin-top: 20px;
   padding: 30px;
@@ -1265,13 +1287,14 @@ align-self: center;
   /* border: 1px solid red; */
   padding: 7px 15px;
   border-radius: 10px;
-  align-self: center;
+  width: auto;
+  align-self: flex-end;
   background-color: #676cdb;
-  color: white;
+  margin-left: 0px;
   /* display: block; */
 }
 
-.header__resume > #resume-button-2 > i{
+.header__resume > #resume-button-2 > i {
   margin-right: 10px;
 }
 
