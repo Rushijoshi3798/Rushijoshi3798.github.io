@@ -627,6 +627,17 @@ img {
   letter-spacing: 0.5px;
 }
 
+#portfolio_Image_ID{
+  margin-bottom: -100px;
+}
+
+#portfolio_Image_ID > img{
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 100%;
+  object-fit: contain;
+}
+
 .about {
   display: flex;
   justify-content: space-between;
