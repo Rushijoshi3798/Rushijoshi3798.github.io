@@ -605,6 +605,7 @@ img {
   margin: 1rem 0;
   color: var(--color-lighter);
   font-weight: var(--font-bold);
+  margin-top: 0px;
 }
 @media only screen and (max-width: 600px) {
   .portfolio__title {
