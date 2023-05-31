@@ -14,10 +14,10 @@
 //   }
 // };
 
-//resume onclick - button-2
+//resume onclick - both button
  function resumeOnclick() {
   const button = "Resume button"
-   window.open("./assets/Rushi-Joshi-Resume.pdf");
+   window.open("./assets/Rushi_Joshi_Resume.pdf");
 }
 
 // Resume button - 2
