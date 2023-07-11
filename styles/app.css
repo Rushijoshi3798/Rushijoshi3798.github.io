@@ -44,7 +44,14 @@
 @media only screen and (max-width: 680px) {
   .portfolio_banner {
     /* height: 100%; */
-    width: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .portfolio_banner{
+    width: 100%;
     object-fit: contain;
   }
 }
